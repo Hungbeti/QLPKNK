@@ -307,6 +307,7 @@
             this.btn_thbn.Text = "        Thông tin bệnh nhân";
             this.btn_thbn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_thbn.UseVisualStyleBackColor = false;
+            this.btn_thbn.Click += new System.EventHandler(this.btn_thbn_Click);
             // 
             // btnQltt
             // 

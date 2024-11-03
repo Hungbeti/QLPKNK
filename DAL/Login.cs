@@ -11,7 +11,7 @@ namespace DAL
 {
     public class Login
     {
-        public static string Log(DTO.TaiKhoan account)
+        public static string Log(DTO.Tai_khoan account)
         {
             string message = "";
 

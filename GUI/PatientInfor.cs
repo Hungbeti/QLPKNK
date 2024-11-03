@@ -16,5 +16,22 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            AddPatient addPatient = new AddPatient();
+            addPatient.ShowDialog();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            EditDoctor patient = new EditDoctor();
+            patient.ShowDialog();
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,6 +23,7 @@ namespace GUI
 
         private void btnQltt_Click(object sender, EventArgs e)
         {
+            lb.Text = btnQltt.Text;
             show_pnQltt = !show_pnQltt;
 
             toogle_pn_qltt();
@@ -68,6 +69,11 @@ namespace GUI
         private void btn_ttnv_Click(object sender, EventArgs e)
         {
             openChildForm(new EmployeeInfor());
+        }
+
+        private void btn_thbn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new PatientInfor());
         }
     }
 }

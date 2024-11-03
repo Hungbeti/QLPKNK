@@ -26,7 +26,7 @@ namespace GUI
             string password = txtMk.Text;
 
             // Tạo đối tượng Account và gán thông tin đăng nhập
-            TaiKhoan account = new TaiKhoan();
+            Tai_khoan account = new Tai_khoan();
             account.setTaiKhoan(username);
             account.setMatKhau(password);
 

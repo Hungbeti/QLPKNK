@@ -24,3 +24,7 @@ C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.ReceptionInfo
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.DoctorInfor.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.AddReception.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.EditReception.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.PatientInfor.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.AddPatient.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.DeletePatient.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.EditPatient.resources

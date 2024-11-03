@@ -10,7 +10,7 @@ namespace BLL
 {
     public class Login
     {
-        public static string Log(DTO.TaiKhoan account)
+        public static string Log(DTO.Tai_khoan account)
         {
             if (account.getTaiKhoan().Length == 0 || account.getTaiKhoan().Equals("Tên tài khoản/ Email"))
             {
