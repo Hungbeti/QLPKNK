@@ -21,34 +21,9 @@ namespace GUI
             InitializeComponent();
 
             toogle_pn_qltt();
-
-            // Đăng ký sự kiện thay đổi ngôn ngữ
-            LanguageService.LanguageChanged += OnLanguageChanged;
-            // Cài đặt ngôn ngữ ban đầu
-            UpdateLanguage();
         }
 
-        private void UpdateLanguage()
-        {
-            lb.Text = LanguageService.GetString("HomePage");
-            btn_dt.Text = LanguageService.GetString("Revenue");
-            btnQltt.Text = LanguageService.GetString("ManageInformation");
-            btn_ttnv.Text = LanguageService.GetString("EmployeeInfo");
-            btn_thbn.Text = LanguageService.GetString("PatientInfo");
-            btn_qlllv.Text = LanguageService.GetString("WorkSchedule");
-            btn_qlvtyt.Text = LanguageService.GetString("MedicalSupplies");
-            btn_dx.Text = LanguageService.GetString("Logout");
-            btn_qllnv.Text = LanguageService.GetString("Salary");
-            btn_qltc.Text = LanguageService.GetString("Income");
-            lbName.Text = LanguageService.GetString("Management");
-            
-        }
-
-        private void OnLanguageChanged()
-        {
-            UpdateLanguage();
-        }
-
+       
         // Quản lý thông tin
         private void btnQltt_Click(object sender, EventArgs e)
         {
@@ -125,13 +100,7 @@ namespace GUI
         
 
         
-        // combobox Ngôn ngữ
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            ComboBox comboBox = sender as ComboBox;
-            string selectedLanguage = comboBox.SelectedItem.ToString();
-            LanguageService.ChangeLanguage(selectedLanguage == "Tiếng Việt" ? "vi" : "en");
-        }
+        
 
         // Quản lý thu chi
         private void btn_qltc_Click(object sender, EventArgs e)

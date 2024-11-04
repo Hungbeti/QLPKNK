@@ -16,7 +16,7 @@ namespace DAL
         {
             if (conn == null)
             {
-                string strcon = @"Data Source=DESKTOP-7SR6Q1U\SQLEXPRESS;Initial Catalog=QLPKNK;Integrated Security=True";
+                string strcon = @"Data Source=DESKTOP-RK3T3GP\NGUYENQUAN;Initial Catalog=QLPKNK;Integrated Security=True";
                 conn = new SqlConnection(strcon);
             }
             return conn;

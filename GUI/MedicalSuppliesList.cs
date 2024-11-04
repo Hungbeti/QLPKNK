@@ -17,27 +17,9 @@ namespace GUI
         {
             InitializeComponent();
             openChildForm(new MedicineList());
-
-            // Đăng ký sự kiện thay đổi ngôn ngữ
-            LanguageService.LanguageChanged += OnLanguageChanged;
-
-            // Cài đặt ngôn ngữ ban đầu
-            UpdateLanguage();
         }
 
-        // Đổi ngôn ngữ
-        private void OnLanguageChanged()
-        {
-            UpdateLanguage();
-        }
-
-        private void UpdateLanguage()
-        {
-            btnMedicine.Text = LanguageService.GetString("Medicine");
-            btnTool.Text = LanguageService.GetString("Tool");
-            btnService.Text = LanguageService.GetString("Service");
-            label1.Text = LanguageService.GetString("MedicalSupplies");
-        }
+        
 
         // Thuốc
         private void btnMedicine_Click(object sender, EventArgs e)

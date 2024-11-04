@@ -128,7 +128,6 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="LanguageService.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -236,9 +235,6 @@
     <EmbeddedResource Include="ReceptionInfor.resx">
       <DependentUpon>ReceptionInfor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources.en.resx" />
-    <EmbeddedResource Include="Resources.resx" />
-    <EmbeddedResource Include="Resources.vi.resx" />
     <EmbeddedResource Include="ServiceList.resx">
       <DependentUpon>ServiceList.cs</DependentUpon>
     </EmbeddedResource>

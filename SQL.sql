@@ -423,6 +423,7 @@ INSERT INTO Luong_co_dinh values('LT',5000000)
 INSERT INTO Luong_co_dinh values('CPK',50000000)
 Go
 INSERT INTO Tai_khoan (Taikhoan, Matkhau) values ('admin@gmail.com', 'admin');
+INSERT INTO Tai_khoan (Taikhoan, Matkhau) values ('a', 'a');
 GO
 CREATE PROCEDURE proc_check_login
     @taikhoan NVARCHAR(50),

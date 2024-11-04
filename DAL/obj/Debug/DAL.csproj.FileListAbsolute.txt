@@ -7,3 +7,12 @@ C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\DAL\obj\Debug\DAL.csproj.CoreCo
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\DAL\obj\Debug\DAL.dll
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\DAL\obj\Debug\DAL.pdb
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\bin\Debug\DAL.dll
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\bin\Debug\DAL.pdb
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\bin\Debug\DTO.dll
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\bin\Debug\DTO.pdb
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.dll
+C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.pdb

@@ -127,14 +127,6 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewMedicine.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dataGridViewMedicine.RowHeadersVisible = false;
-            this.dataGridViewMedicine.RowHeadersWidth = 51;
-            this.dataGridViewMedicine.RowTemplate.Height = 24;
-            this.dataGridViewMedicine.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewMedicine.Size = new System.Drawing.Size(924, 387);
-            this.dataGridViewMedicine.TabIndex = 4;
-            this.dataGridViewMedicine.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewMedicine_CellContentClick);
             // 
             // panel1
             // 

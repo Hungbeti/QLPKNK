@@ -52,7 +52,6 @@
             this.lbName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lb = new System.Windows.Forms.Label();
             this.pnBody = new System.Windows.Forms.Panel();
@@ -380,7 +379,6 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.panel4.Controls.Add(this.comboBox1);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.lb);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -388,21 +386,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(829, 100);
             this.panel4.TabIndex = 1;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Tiếng Việt",
-            "Tiếng Anh"});
-            this.comboBox1.Location = new System.Drawing.Point(667, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(133, 28);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.Text = "Ngôn ngữ";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -483,6 +466,5 @@
         private System.Windows.Forms.Button btn_ttnv;
         private System.Windows.Forms.Button btn_thbn;
         private System.Windows.Forms.Panel pnBody;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
