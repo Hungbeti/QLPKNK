@@ -63,5 +63,34 @@ namespace DTO
         {
             return Ten_loai;
         }
+
+        public void setTen_thuoc(string ten_thuoc) 
+        { 
+            Ten_thuoc = ten_thuoc; 
+        }
+        public void setDVT(string dvt) 
+        { 
+            DVT = dvt;
+        }
+        public void setSo_luong(int so_luong)
+        { 
+            So_luong = so_luong;
+        }
+        public void setGia_ban(float gia_ban)
+        { 
+            Gia_ban = gia_ban;
+        }
+        public void setHam_luong(string ham_luong) 
+        {
+            Ham_luong = ham_luong;
+        }
+        public void setGhi_chu(string ghi_chu) 
+        { 
+            Ghi_chu = ghi_chu; 
+        }
+        public void setTen_loai(string ten_loai) 
+        { 
+            Ten_loai = ten_loai; 
+        }
     }
 }

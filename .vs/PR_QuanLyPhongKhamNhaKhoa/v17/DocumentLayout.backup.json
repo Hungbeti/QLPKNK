@@ -3,76 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\editreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\editreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\medicalsupplieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicalsupplieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\medicalsupplieslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicalsupplieslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\editreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\editreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\receptioninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\receptioninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\receptioninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\receptioninfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\doctorinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\doctorinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\addreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\addreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addreception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\doctorinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\doctorinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\receptioninfor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\receptioninfor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\employeeinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\employeeinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\doctorinfor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\doctorinfor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\employeeinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\employeeinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674F270D-0A79-4051-8994-E5130A0E8ACF}|DAL\\DAL.csproj|C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\dal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{674F270D-0A79-4051-8994-E5130A0E8ACF}|DAL\\DAL.csproj|solutionrelative:dal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\medicalsupplieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicalsupplieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\pr_quanlyphongkhamnhakhoa\\gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,60 +42,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\DAL\\Login.cs",
-              "RelativeDocumentMoniker": "DAL\\Login.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\DAL\\Login.cs",
-              "RelativeToolTip": "DAL\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T09:48:34.141Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.cs",
               "RelativeDocumentMoniker": "GUI\\Home.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.cs",
               "RelativeToolTip": "GUI\\Home.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADgvzIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAhwFgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:00:14.264Z",
+              "WhenOpened": "2024-11-04T12:13:00.453Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditDoctor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditDoctor.cs",
-              "RelativeDocumentMoniker": "GUI\\EditDoctor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditDoctor.cs [Design]",
-              "RelativeToolTip": "GUI\\EditDoctor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T03:37:58.036Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditReception.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditReception.cs",
-              "RelativeDocumentMoniker": "GUI\\EditReception.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditReception.cs",
-              "RelativeToolTip": "GUI\\EditReception.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAArwB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:25:19.596Z",
               "EditorCaption": ""
             },
             {
@@ -184,179 +104,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddDoctor.cs",
-              "RelativeDocumentMoniker": "GUI\\AddDoctor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddDoctor.cs",
-              "RelativeToolTip": "GUI\\AddDoctor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:14:34.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddReception.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddReception.cs",
-              "RelativeDocumentMoniker": "GUI\\AddReception.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddReception.cs",
-              "RelativeToolTip": "GUI\\AddReception.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAArwCQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:14:14.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReceptionInfor.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\ReceptionInfor.Designer.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.Designer.cs",
-              "RelativeToolTip": "GUI\\ReceptionInfor.Designer.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:08:42.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddDoctor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddDoctor.cs",
-              "RelativeDocumentMoniker": "GUI\\AddDoctor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddDoctor.cs [Design]",
-              "RelativeToolTip": "GUI\\AddDoctor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:59:32.566Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddReception.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddReception.cs",
-              "RelativeDocumentMoniker": "GUI\\AddReception.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\AddReception.cs [Design]",
-              "RelativeToolTip": "GUI\\AddReception.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:57:55.08Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DoctorInfor.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\DoctorInfor.Designer.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.Designer.cs",
-              "RelativeToolTip": "GUI\\DoctorInfor.Designer.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwDEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:52:14.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DoctorInfor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\DoctorInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.cs",
-              "RelativeToolTip": "GUI\\DoctorInfor.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA6wCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:48:34.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeInfor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EmployeeInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\EmployeeInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EmployeeInfor.cs",
-              "RelativeToolTip": "GUI\\EmployeeInfor.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T04:17:47.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditReception.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditReception.cs",
-              "RelativeDocumentMoniker": "GUI\\EditReception.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditReception.cs [Design]",
-              "RelativeToolTip": "GUI\\EditReception.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:58:12.609Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeInfor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EmployeeInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\EmployeeInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EmployeeInfor.cs [Design]",
-              "RelativeToolTip": "GUI\\EmployeeInfor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T04:17:10.829Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ReceptionInfor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\ReceptionInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.cs [Design]",
-              "RelativeToolTip": "GUI\\ReceptionInfor.cs [Design]",
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Home.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.Designer.cs",
+              "RelativeToolTip": "GUI\\Home.Designer.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAAAD4AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:07:18.062Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-04T12:32:29.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DoctorInfor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\DoctorInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\DoctorInfor.cs [Design]",
-              "RelativeToolTip": "GUI\\DoctorInfor.cs [Design]",
+              "Title": "MedicineList.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicineList.cs",
+              "RelativeDocumentMoniker": "GUI\\MedicineList.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicineList.cs",
+              "RelativeToolTip": "GUI\\MedicineList.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:06:20.776Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-04T12:27:04.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ReceptionInfor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.cs",
-              "RelativeDocumentMoniker": "GUI\\ReceptionInfor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\ReceptionInfor.cs",
-              "RelativeToolTip": "GUI\\ReceptionInfor.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAD4vxwAAAAnAAAAAAAAAA==",
+              "Title": "MedicineList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicineList.cs",
+              "RelativeDocumentMoniker": "GUI\\MedicineList.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicineList.cs [Design]",
+              "RelativeToolTip": "GUI\\MedicineList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:15:42.061Z",
+              "WhenOpened": "2024-11-04T12:27:02.697Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicalSuppliesList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\MedicalSuppliesList.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.Designer.cs",
+              "RelativeToolTip": "GUI\\MedicalSuppliesList.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:26:06.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.cs",
+              "RelativeDocumentMoniker": "GUI\\Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\Home.cs [Design]",
+              "RelativeToolTip": "GUI\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:10:11.158Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicalSuppliesList.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.cs",
+              "RelativeDocumentMoniker": "GUI\\MedicalSuppliesList.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.cs",
+              "RelativeToolTip": "GUI\\MedicalSuppliesList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:15:25.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EditDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditDoctor.cs",
-              "RelativeDocumentMoniker": "GUI\\EditDoctor.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\EditDoctor.cs",
-              "RelativeToolTip": "GUI\\EditDoctor.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA/wCQAAAAwAAAAAAAAAA==",
+              "Title": "MedicalSuppliesList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.cs",
+              "RelativeDocumentMoniker": "GUI\\MedicalSuppliesList.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\PR_QuanLyPhongKhamNhaKhoa\\GUI\\MedicalSuppliesList.cs [Design]",
+              "RelativeToolTip": "GUI\\MedicalSuppliesList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T03:45:11.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T12:15:23.508Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

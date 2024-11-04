@@ -21,6 +21,7 @@ namespace GUI
             toogle_pn_qltt();
         }
 
+        // Quản lý thông tin
         private void btnQltt_Click(object sender, EventArgs e)
         {
             lb.Text = btnQltt.Text;
@@ -66,14 +67,27 @@ namespace GUI
             childForm.Show();
         }
 
+        // Thông tin nhân viên
         private void btn_ttnv_Click(object sender, EventArgs e)
         {
             openChildForm(new EmployeeInfor());
         }
 
+        // Thông tin bệnh nhân
         private void btn_thbn_Click(object sender, EventArgs e)
         {
             openChildForm(new PatientInfor());
+        }
+
+        // Quản lý vật tư y tế
+        private void btn_qlllv_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btn_qlvtyt_Click(object sender, EventArgs e)
+        {
+            lb.Text = btn_qlvtyt.Text;
+            openChildForm(new MedicalSuppliesList());
         }
     }
 }

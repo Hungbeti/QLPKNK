@@ -49,12 +49,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.avtPic = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lb = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.pnBody = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.pnQltt.SuspendLayout();
@@ -86,7 +85,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 1053);
+            this.panel1.Size = new System.Drawing.Size(353, 1053);
             this.panel1.TabIndex = 0;
             // 
             // btn_dx
@@ -102,10 +101,9 @@
             this.btn_dx.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dx.Location = new System.Drawing.Point(0, 693);
             this.btn_dx.Name = "btn_dx";
-            this.btn_dx.Size = new System.Drawing.Size(300, 66);
+            this.btn_dx.Size = new System.Drawing.Size(353, 66);
             this.btn_dx.TabIndex = 16;
-            this.btn_dx.Text = "        Đăng xuất";
-            this.btn_dx.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_dx.Text = "Đăng xuất";
             this.btn_dx.UseVisualStyleBackColor = true;
             this.btn_dx.Click += new System.EventHandler(this.btn_dx_Click);
             // 
@@ -115,7 +113,7 @@
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel12.Location = new System.Drawing.Point(0, 691);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(300, 2);
+            this.panel12.Size = new System.Drawing.Size(353, 2);
             this.panel12.TabIndex = 15;
             // 
             // btn_qllnv
@@ -131,10 +129,9 @@
             this.btn_qllnv.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_qllnv.Location = new System.Drawing.Point(0, 625);
             this.btn_qllnv.Name = "btn_qllnv";
-            this.btn_qllnv.Size = new System.Drawing.Size(300, 66);
+            this.btn_qllnv.Size = new System.Drawing.Size(353, 66);
             this.btn_qllnv.TabIndex = 14;
-            this.btn_qllnv.Text = "        Quản lý lương nhân viên";
-            this.btn_qllnv.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_qllnv.Text = "Quản lý lương nhân viên";
             this.btn_qllnv.UseVisualStyleBackColor = true;
             // 
             // panel11
@@ -143,7 +140,7 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 623);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(300, 2);
+            this.panel11.Size = new System.Drawing.Size(353, 2);
             this.panel11.TabIndex = 13;
             // 
             // btn_dt
@@ -159,10 +156,9 @@
             this.btn_dt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dt.Location = new System.Drawing.Point(0, 557);
             this.btn_dt.Name = "btn_dt";
-            this.btn_dt.Size = new System.Drawing.Size(300, 66);
+            this.btn_dt.Size = new System.Drawing.Size(353, 66);
             this.btn_dt.TabIndex = 12;
-            this.btn_dt.Text = "        Doanh thu";
-            this.btn_dt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_dt.Text = "Doanh thu";
             this.btn_dt.UseVisualStyleBackColor = true;
             // 
             // panel10
@@ -171,7 +167,7 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(0, 555);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(300, 2);
+            this.panel10.Size = new System.Drawing.Size(353, 2);
             this.panel10.TabIndex = 11;
             // 
             // btn_qltc
@@ -187,10 +183,9 @@
             this.btn_qltc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_qltc.Location = new System.Drawing.Point(0, 489);
             this.btn_qltc.Name = "btn_qltc";
-            this.btn_qltc.Size = new System.Drawing.Size(300, 66);
+            this.btn_qltc.Size = new System.Drawing.Size(353, 66);
             this.btn_qltc.TabIndex = 10;
-            this.btn_qltc.Text = "        Quản lý thu chi";
-            this.btn_qltc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_qltc.Text = "Quản lý thu chi";
             this.btn_qltc.UseVisualStyleBackColor = true;
             // 
             // panel9
@@ -199,7 +194,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 487);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(300, 2);
+            this.panel9.Size = new System.Drawing.Size(353, 2);
             this.panel9.TabIndex = 9;
             // 
             // btn_qlvtyt
@@ -215,11 +210,11 @@
             this.btn_qlvtyt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_qlvtyt.Location = new System.Drawing.Point(0, 421);
             this.btn_qlvtyt.Name = "btn_qlvtyt";
-            this.btn_qlvtyt.Size = new System.Drawing.Size(300, 66);
+            this.btn_qlvtyt.Size = new System.Drawing.Size(353, 66);
             this.btn_qlvtyt.TabIndex = 8;
-            this.btn_qlvtyt.Text = "        Quản lý vật tư y tế";
-            this.btn_qlvtyt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_qlvtyt.Text = "Quản lý vật tư y tế";
             this.btn_qlvtyt.UseVisualStyleBackColor = true;
+            this.btn_qlvtyt.Click += new System.EventHandler(this.btn_qlvtyt_Click);
             // 
             // panel8
             // 
@@ -227,7 +222,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(0, 419);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(300, 2);
+            this.panel8.Size = new System.Drawing.Size(353, 2);
             this.panel8.TabIndex = 7;
             // 
             // btn_qlllv
@@ -243,11 +238,11 @@
             this.btn_qlllv.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_qlllv.Location = new System.Drawing.Point(0, 353);
             this.btn_qlllv.Name = "btn_qlllv";
-            this.btn_qlllv.Size = new System.Drawing.Size(300, 66);
+            this.btn_qlllv.Size = new System.Drawing.Size(353, 66);
             this.btn_qlllv.TabIndex = 6;
-            this.btn_qlllv.Text = "        Quản lý lịch làm việc";
-            this.btn_qlllv.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_qlllv.Text = "Quản lý lịch làm việc";
             this.btn_qlllv.UseVisualStyleBackColor = true;
+            this.btn_qlllv.Click += new System.EventHandler(this.btn_qlllv_Click);
             // 
             // panel7
             // 
@@ -255,7 +250,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 351);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(300, 2);
+            this.panel7.Size = new System.Drawing.Size(353, 2);
             this.panel7.TabIndex = 5;
             // 
             // pnQltt
@@ -266,7 +261,7 @@
             this.pnQltt.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnQltt.Location = new System.Drawing.Point(0, 218);
             this.pnQltt.Name = "pnQltt";
-            this.pnQltt.Size = new System.Drawing.Size(300, 133);
+            this.pnQltt.Size = new System.Drawing.Size(353, 133);
             this.pnQltt.TabIndex = 4;
             // 
             // btn_ttnv
@@ -282,10 +277,9 @@
             this.btn_ttnv.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ttnv.Location = new System.Drawing.Point(0, 66);
             this.btn_ttnv.Name = "btn_ttnv";
-            this.btn_ttnv.Size = new System.Drawing.Size(300, 66);
+            this.btn_ttnv.Size = new System.Drawing.Size(353, 66);
             this.btn_ttnv.TabIndex = 2;
-            this.btn_ttnv.Text = "        Thông tin nhân viên";
-            this.btn_ttnv.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ttnv.Text = "Thông tin nhân viên";
             this.btn_ttnv.UseVisualStyleBackColor = false;
             this.btn_ttnv.Click += new System.EventHandler(this.btn_ttnv_Click);
             // 
@@ -302,10 +296,9 @@
             this.btn_thbn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_thbn.Location = new System.Drawing.Point(0, 0);
             this.btn_thbn.Name = "btn_thbn";
-            this.btn_thbn.Size = new System.Drawing.Size(300, 66);
+            this.btn_thbn.Size = new System.Drawing.Size(353, 66);
             this.btn_thbn.TabIndex = 3;
-            this.btn_thbn.Text = "        Thông tin bệnh nhân";
-            this.btn_thbn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_thbn.Text = "Thông tin bệnh nhân";
             this.btn_thbn.UseVisualStyleBackColor = false;
             this.btn_thbn.Click += new System.EventHandler(this.btn_thbn_Click);
             // 
@@ -321,10 +314,9 @@
             this.btnQltt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQltt.Location = new System.Drawing.Point(0, 152);
             this.btnQltt.Name = "btnQltt";
-            this.btnQltt.Size = new System.Drawing.Size(300, 66);
+            this.btnQltt.Size = new System.Drawing.Size(353, 66);
             this.btnQltt.TabIndex = 2;
-            this.btnQltt.Text = "        Quản lý thông tin";
-            this.btnQltt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQltt.Text = "Quản lý thông tin";
             this.btnQltt.UseVisualStyleBackColor = true;
             this.btnQltt.Click += new System.EventHandler(this.btnQltt_Click);
             // 
@@ -334,18 +326,18 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 150);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(300, 2);
+            this.panel3.Size = new System.Drawing.Size(353, 2);
             this.panel3.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.avtPic);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.lbName);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(300, 150);
+            this.panel2.Size = new System.Drawing.Size(353, 150);
             this.panel2.TabIndex = 0;
             // 
             // avtPic
@@ -358,17 +350,17 @@
             this.avtPic.TabIndex = 4;
             this.avtPic.TabStop = false;
             // 
-            // label2
+            // lbName
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(207)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(101, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Quản lý";
+            this.lbName.AutoSize = true;
+            this.lbName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(207)))));
+            this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbName.ForeColor = System.Drawing.Color.White;
+            this.lbName.Location = new System.Drawing.Point(101, 52);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(87, 26);
+            this.lbName.TabIndex = 3;
+            this.lbName.Text = "Quản lý";
             // 
             // label1
             // 
@@ -386,18 +378,17 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.lb);
-            this.panel4.Controls.Add(this.comboBox2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(300, 0);
+            this.panel4.Location = new System.Drawing.Point(353, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(882, 100);
+            this.panel4.Size = new System.Drawing.Size(829, 100);
             this.panel4.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(661, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(666, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(44, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -414,29 +405,12 @@
             this.lb.TabIndex = 5;
             this.lb.Text = "Trang chủ";
             // 
-            // comboBox2
-            // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Tiếng Việt",
-            "Tiếng Anh"});
-            this.comboBox2.Location = new System.Drawing.Point(731, 30);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(140, 33);
-            this.comboBox2.TabIndex = 4;
-            this.comboBox2.Text = "Ngôn ngữ";
-            // 
             // pnBody
             // 
-            this.pnBody.AutoSize = true;
-            this.pnBody.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.pnBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnBody.Location = new System.Drawing.Point(300, 100);
+            this.pnBody.Location = new System.Drawing.Point(353, 100);
             this.pnBody.Name = "pnBody";
-            this.pnBody.Size = new System.Drawing.Size(882, 953);
+            this.pnBody.Size = new System.Drawing.Size(829, 953);
             this.pnBody.TabIndex = 2;
             // 
             // Home
@@ -458,7 +432,6 @@
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -467,12 +440,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox avtPic;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lb;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Panel pnBody;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnQltt;
         private System.Windows.Forms.Panel panel3;
@@ -491,5 +462,6 @@
         private System.Windows.Forms.Panel pnQltt;
         private System.Windows.Forms.Button btn_ttnv;
         private System.Windows.Forms.Button btn_thbn;
+        private System.Windows.Forms.Panel pnBody;
     }
 }

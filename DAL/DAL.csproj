@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="DatabaseAccess.cs" />
     <Compile Include="Login.cs" />
+    <Compile Include="MedicalSuppliesList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

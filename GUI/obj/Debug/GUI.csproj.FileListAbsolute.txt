@@ -28,3 +28,7 @@ C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.PatientInfor.
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.AddPatient.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.DeletePatient.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.EditPatient.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.MedicalSuppliesList.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.MedicineList.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.AddMedicine.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.EditMedicine.resources
