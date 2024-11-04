@@ -52,6 +52,7 @@
             this.lbName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lb = new System.Windows.Forms.Label();
             this.pnBody = new System.Windows.Forms.Panel();
@@ -133,6 +134,7 @@
             this.btn_qllnv.TabIndex = 14;
             this.btn_qllnv.Text = "Quản lý lương nhân viên";
             this.btn_qllnv.UseVisualStyleBackColor = true;
+            this.btn_qllnv.Click += new System.EventHandler(this.btn_qllnv_Click);
             // 
             // panel11
             // 
@@ -160,6 +162,7 @@
             this.btn_dt.TabIndex = 12;
             this.btn_dt.Text = "Doanh thu";
             this.btn_dt.UseVisualStyleBackColor = true;
+            this.btn_dt.Click += new System.EventHandler(this.btn_dt_Click);
             // 
             // panel10
             // 
@@ -187,6 +190,7 @@
             this.btn_qltc.TabIndex = 10;
             this.btn_qltc.Text = "Quản lý thu chi";
             this.btn_qltc.UseVisualStyleBackColor = true;
+            this.btn_qltc.Click += new System.EventHandler(this.btn_qltc_Click);
             // 
             // panel9
             // 
@@ -376,6 +380,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.panel4.Controls.Add(this.comboBox1);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.lb);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -384,11 +389,26 @@
             this.panel4.Size = new System.Drawing.Size(829, 100);
             this.panel4.TabIndex = 1;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tiếng Việt",
+            "Tiếng Anh"});
+            this.comboBox1.Location = new System.Drawing.Point(667, 34);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(133, 28);
+            this.comboBox1.TabIndex = 8;
+            this.comboBox1.Text = "Ngôn ngữ";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(666, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(595, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(44, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -463,5 +483,6 @@
         private System.Windows.Forms.Button btn_ttnv;
         private System.Windows.Forms.Button btn_thbn;
         private System.Windows.Forms.Panel pnBody;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

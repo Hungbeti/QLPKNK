@@ -134,6 +134,7 @@
             this.dataGridViewMedicine.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewMedicine.Size = new System.Drawing.Size(924, 387);
             this.dataGridViewMedicine.TabIndex = 4;
+            this.dataGridViewMedicine.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewMedicine_CellContentClick);
             // 
             // panel1
             // 

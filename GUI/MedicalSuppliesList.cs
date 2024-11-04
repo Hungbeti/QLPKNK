@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,8 +17,29 @@ namespace GUI
         {
             InitializeComponent();
             openChildForm(new MedicineList());
+
+            // Đăng ký sự kiện thay đổi ngôn ngữ
+            LanguageService.LanguageChanged += OnLanguageChanged;
+
+            // Cài đặt ngôn ngữ ban đầu
+            UpdateLanguage();
         }
 
+        // Đổi ngôn ngữ
+        private void OnLanguageChanged()
+        {
+            UpdateLanguage();
+        }
+
+        private void UpdateLanguage()
+        {
+            btnMedicine.Text = LanguageService.GetString("Medicine");
+            btnTool.Text = LanguageService.GetString("Tool");
+            btnService.Text = LanguageService.GetString("Service");
+            label1.Text = LanguageService.GetString("MedicalSupplies");
+        }
+
+        // Thuốc
         private void btnMedicine_Click(object sender, EventArgs e)
         {
             btnMedicine.BackColor = Color.FromArgb(68, 197, 229);
@@ -27,6 +49,7 @@ namespace GUI
             openChildForm(new MedicineList());
         }
 
+        // Dụng cụ
         private void btnTool_Click(object sender, EventArgs e)
         {
             btnMedicine.BackColor = Color.White;
@@ -34,6 +57,7 @@ namespace GUI
             btnTool.BackColor = Color.FromArgb(68, 197, 229);
         }
 
+        // Dịch vụ
         private void btnService_Click(object sender, EventArgs e)
         {
             btnMedicine.BackColor = Color.White;
@@ -41,6 +65,7 @@ namespace GUI
             btnTool.BackColor = Color.White;
         }
 
+        // child form
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {

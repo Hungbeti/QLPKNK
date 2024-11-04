@@ -445,3 +445,17 @@ BEGIN
     END
 END
 GO
+CREATE PROCEDURE ThemThuoc
+    @Ten_thuoc NVARCHAR(30),
+    @DVT NVARCHAR(15),
+    @So_luong INT,
+    @Gia_ban FLOAT,
+    @Ham_luong NVARCHAR(10),
+    @Ghi_chu NVARCHAR(150),
+    @Ten_loai NVARCHAR(30)
+AS
+BEGIN
+    INSERT INTO Thuoc (Ten_thuoc, DVT, So_luong, Gia_ban, Ham_luong, Ghi_chu, Ten_loai)
+    VALUES (@Ten_thuoc, @DVT, @So_luong, @Gia_ban, @Ham_luong, @Ghi_chu, @Ten_loai);
+END;
+GO

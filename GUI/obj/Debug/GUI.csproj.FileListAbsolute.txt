@@ -32,3 +32,11 @@ C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.MedicalSuppli
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.MedicineList.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.AddMedicine.resources
 C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.EditMedicine.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.Resources.en.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.Resources.vi.resources
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\bin\Debug\en\GUI.resources.dll
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\bin\Debug\vi\GUI.resources.dll
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\en\GUI.resources.dll
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\vi\GUI.resources.dll
+C:\Users\admin\Desktop\PR_QuanLyPhongKhamNhaKhoa\GUI\obj\Debug\GUI.ServiceList.resources
