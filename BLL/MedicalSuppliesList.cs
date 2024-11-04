@@ -13,7 +13,7 @@ namespace BLL
 {
     public static class MedicalSuppliesList
     {
-        public static DataSet DanhSachVatLieu()
+        public static DataSet DanhSachDungCu()
         {
             return DAL.MedicalSuppliesList.DanhSachDungCu(); ;
         }
@@ -37,12 +37,12 @@ namespace BLL
             return DAL.MedicalSuppliesList.GetDichVu(id);
         }
 
-        public static DTO.Dung_cu GetVatLieu(string id)
+        public static DTO.Dung_cu GetDungCu(string id)
         {
-            return DAL.MedicalSuppliesList.GetVatLieu(id);
+            return DAL.MedicalSuppliesList.GetDungCu(id);
         }
 
-        public static string AddVatLieu(string ten, string mausac, string kichco, string dvt, string gia, string soluong, string ghichu, string loai)
+        public static string AddDungCu(string ten, string mausac, string kichco, string dvt, string gia, string soluong, string ghichu, string loai)
         {
             return DAL.MedicalSuppliesList.AddDungCu(ten, mausac, kichco, dvt, gia, soluong, ghichu, loai);
         }
@@ -55,7 +55,7 @@ namespace BLL
             return DAL.MedicalSuppliesList.AddThuoc(ten, dvt, soluong, giaban, hamluong, ghichu, loai);
         }
 
-        public static string EditVatLieu(string ten, string mausac, string kichco, string dvt, string gia, string soluong, string ghichu, string loai)
+        public static string EditDungCu(string ten, string mausac, string kichco, string dvt, string gia, string soluong, string ghichu, string loai)
         {
             return DAL.MedicalSuppliesList.EditDungCu(ten, mausac, kichco, dvt, gia, soluong, ghichu, loai);
         }

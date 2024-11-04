@@ -337,7 +337,7 @@ namespace DAL
             return dichVu;
         }
 
-        public static DTO.Dung_cu GetVatLieu(string id)
+        public static DTO.Dung_cu GetDungCu(string id)
         {
             DTO.Dung_cu vatLieu = null;
             string query = "SELECT * FROM Vat_lieu WHERE Ten_dung_cu = @Id";

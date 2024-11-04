@@ -74,6 +74,18 @@
     <Compile Include="AddReception.Designer.cs">
       <DependentUpon>AddReception.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddService.Designer.cs">
+      <DependentUpon>AddService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTool.Designer.cs">
+      <DependentUpon>AddTool.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeletePatient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,18 @@
     </Compile>
     <Compile Include="EditReception.Designer.cs">
       <DependentUpon>EditReception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditService.Designer.cs">
+      <DependentUpon>EditService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTool.Designer.cs">
+      <DependentUpon>EditTool.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeInfor.cs">
       <SubType>Form</SubType>
@@ -184,6 +208,9 @@
     <EmbeddedResource Include="AddReception.resx">
       <DependentUpon>AddReception.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddTool.resx">
+      <DependentUpon>AddTool.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeletePatient.resx">
       <DependentUpon>DeletePatient.cs</DependentUpon>
     </EmbeddedResource>
@@ -201,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditReception.resx">
       <DependentUpon>EditReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTool.resx">
+      <DependentUpon>EditTool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInfor.resx">
       <DependentUpon>EmployeeInfor.cs</DependentUpon>
@@ -237,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ServiceList.resx">
       <DependentUpon>ServiceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolList.resx">
+      <DependentUpon>ToolList.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

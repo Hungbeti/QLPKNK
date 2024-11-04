@@ -52,7 +52,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(150, 35);
             this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Thêm thuốc";
+            this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -66,7 +66,7 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(150, 35);
             this.btnEdit.TabIndex = 1;
-            this.btnEdit.Text = "Sửa Thông tin";
+            this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
@@ -76,7 +76,7 @@
             this.btnDel.FlatAppearance.BorderSize = 0;
             this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDel.Location = new System.Drawing.Point(421, 29);
+            this.btnDel.Location = new System.Drawing.Point(408, 29);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(150, 35);
             this.btnDel.TabIndex = 2;
@@ -95,7 +95,9 @@
             // 
             // dataGridViewMedicine
             // 
+            this.dataGridViewMedicine.AllowUserToAddRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewMedicine.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewMedicine.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewMedicine.BackgroundColor = System.Drawing.SystemColors.Control;
@@ -118,15 +120,20 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewMedicine.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewMedicine.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewMedicine.Location = new System.Drawing.Point(0, 83);
+            this.dataGridViewMedicine.Location = new System.Drawing.Point(0, 87);
             this.dataGridViewMedicine.Name = "dataGridViewMedicine";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewMedicine.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridViewMedicine.RowHeadersVisible = false;
+            this.dataGridViewMedicine.RowHeadersWidth = 51;
+            this.dataGridViewMedicine.Size = new System.Drawing.Size(924, 383);
+            this.dataGridViewMedicine.TabIndex = 0;
             // 
             // panel1
             // 
@@ -137,7 +144,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(924, 83);
+            this.panel1.Size = new System.Drawing.Size(924, 87);
             this.panel1.TabIndex = 5;
             // 
             // MedicineList

@@ -75,3 +75,6 @@ C:\Users\NguyenQuan\source\repos\CNPM\GUI\bin\Debug\BLL.pdb
 C:\Users\NguyenQuan\source\repos\CNPM\GUI\bin\Debug\DTO.pdb
 C:\Users\NguyenQuan\source\repos\CNPM\GUI\bin\Debug\DAL.pdb
 C:\Users\NguyenQuan\source\repos\CNPM\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\NguyenQuan\source\repos\CNPM\GUI\obj\Debug\GUI.ToolList.resources
+C:\Users\NguyenQuan\source\repos\CNPM\GUI\obj\Debug\GUI.AddTool.resources
+C:\Users\NguyenQuan\source\repos\CNPM\GUI\obj\Debug\GUI.EditTool.resources

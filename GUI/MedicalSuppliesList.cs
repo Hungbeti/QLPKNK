@@ -37,6 +37,8 @@ namespace GUI
             btnMedicine.BackColor = Color.White;
             btnService.BackColor = Color.White;
             btnTool.BackColor = Color.FromArgb(68, 197, 229);
+
+            openChildForm(new ToolList());
         }
 
         // Dịch vụ
@@ -45,6 +47,8 @@ namespace GUI
             btnMedicine.BackColor = Color.White;
             btnService.BackColor = Color.FromArgb(68, 197, 229);
             btnTool.BackColor = Color.White;
+
+            openChildForm(new ServiceList());
         }
 
         // child form

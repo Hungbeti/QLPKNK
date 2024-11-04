@@ -460,3 +460,30 @@ BEGIN
     VALUES (@Ten_thuoc, @DVT, @So_luong, @Gia_ban, @Ham_luong, @Ghi_chu, @Ten_loai);
 END;
 GO
+CREATE PROCEDURE ThemDungCu
+    @Ten_dung_cu NVARCHAR(30),
+	@Mau_sac NVARCHAR(15),
+	@Kich_co FLOAT,
+    @DVT NVARCHAR(15),
+    @Tri_gia FLOAT,
+    @So_luong INT,
+    @Ghi_chu NVARCHAR(150),
+    @Loai NVARCHAR(30)
+AS
+BEGIN
+    INSERT INTO Dung_cu (Ten_dung_cu, Mau_sac, Kich_co, DVT, Tri_gia, So_luong,  Ghi_chu,  Loai)
+    VALUES (@Ten_dung_cu, @Mau_sac, @Kich_co, @DVT, @Tri_gia, @So_luong, @Ghi_chu, @Loai);
+END;
+GO
+CREATE PROCEDURE ThemDichVu
+    @Ten_dich_vu NVARCHAR(30),
+	@Don_vi_tinh NVARCHAR(15),
+	@Don_gia FLOAT,
+    @Ghi_chu NVARCHAR(150),
+    @Ten_danh_muc NVARCHAR(30)
+AS
+BEGIN
+    INSERT INTO Dich_vu (Ten_dich_vu, Don_vi_tinh, Don_gia, Ghi_chu, Ten_danh_muc)
+    VALUES (@Ten_dich_vu, @Don_vi_tinh, @Don_gia, @Ghi_chu, @Ten_danh_muc);
+END;
+GO
