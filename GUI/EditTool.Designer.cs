@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditTool));
             this.btnConfirm = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
-            this.txtType = new System.Windows.Forms.TextBox();
             this.txtNote = new System.Windows.Forms.TextBox();
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.txtTrigia = new System.Windows.Forms.TextBox();
@@ -52,6 +51,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cbType = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -67,7 +67,7 @@
             this.btnConfirm.Location = new System.Drawing.Point(543, 454);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(130, 36);
-            this.btnConfirm.TabIndex = 39;
+            this.btnConfirm.TabIndex = 9;
             this.btnConfirm.Text = "Xác nhận";
             this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
@@ -82,18 +82,10 @@
             this.btnDel.Location = new System.Drawing.Point(421, 454);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(115, 36);
-            this.btnDel.TabIndex = 38;
+            this.btnDel.TabIndex = 8;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
-            // 
-            // txtType
-            // 
-            this.txtType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtType.Location = new System.Drawing.Point(421, 387);
-            this.txtType.Name = "txtType";
-            this.txtType.Size = new System.Drawing.Size(252, 30);
-            this.txtType.TabIndex = 37;
             // 
             // txtNote
             // 
@@ -102,7 +94,7 @@
             this.txtNote.Multiline = true;
             this.txtNote.Name = "txtNote";
             this.txtNote.Size = new System.Drawing.Size(252, 109);
-            this.txtNote.TabIndex = 36;
+            this.txtNote.TabIndex = 6;
             // 
             // txtQuantity
             // 
@@ -110,7 +102,7 @@
             this.txtQuantity.Location = new System.Drawing.Point(421, 160);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(252, 30);
-            this.txtQuantity.TabIndex = 35;
+            this.txtQuantity.TabIndex = 5;
             // 
             // txtTrigia
             // 
@@ -118,7 +110,7 @@
             this.txtTrigia.Location = new System.Drawing.Point(45, 460);
             this.txtTrigia.Name = "txtTrigia";
             this.txtTrigia.Size = new System.Drawing.Size(238, 30);
-            this.txtTrigia.TabIndex = 34;
+            this.txtTrigia.TabIndex = 4;
             // 
             // txtDVT
             // 
@@ -126,7 +118,7 @@
             this.txtDVT.Location = new System.Drawing.Point(45, 387);
             this.txtDVT.Name = "txtDVT";
             this.txtDVT.Size = new System.Drawing.Size(238, 30);
-            this.txtDVT.TabIndex = 33;
+            this.txtDVT.TabIndex = 3;
             // 
             // txtSize
             // 
@@ -134,7 +126,7 @@
             this.txtSize.Location = new System.Drawing.Point(45, 311);
             this.txtSize.Name = "txtSize";
             this.txtSize.Size = new System.Drawing.Size(238, 30);
-            this.txtSize.TabIndex = 32;
+            this.txtSize.TabIndex = 2;
             // 
             // txtColor
             // 
@@ -142,7 +134,7 @@
             this.txtColor.Location = new System.Drawing.Point(45, 232);
             this.txtColor.Name = "txtColor";
             this.txtColor.Size = new System.Drawing.Size(238, 30);
-            this.txtColor.TabIndex = 31;
+            this.txtColor.TabIndex = 1;
             // 
             // txtName
             // 
@@ -150,7 +142,7 @@
             this.txtName.Location = new System.Drawing.Point(45, 160);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(238, 30);
-            this.txtName.TabIndex = 30;
+            this.txtName.TabIndex = 0;
             // 
             // label10
             // 
@@ -252,9 +244,9 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(23, 12);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 25);
+            this.label9.Size = new System.Drawing.Size(123, 25);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Thêm vật tư";
+            this.label9.Text = "Sửa dụng cụ";
             // 
             // panel1
             // 
@@ -280,9 +272,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.cbType);
             this.panel2.Controls.Add(this.btnConfirm);
             this.panel2.Controls.Add(this.btnDel);
-            this.panel2.Controls.Add(this.txtType);
             this.panel2.Controls.Add(this.txtNote);
             this.panel2.Controls.Add(this.txtQuantity);
             this.panel2.Controls.Add(this.txtTrigia);
@@ -305,8 +297,28 @@
             this.panel2.Size = new System.Drawing.Size(717, 515);
             this.panel2.TabIndex = 22;
             // 
+            // cbType
+            // 
+            this.cbType.BackColor = System.Drawing.Color.Transparent;
+            this.cbType.BorderRadius = 10;
+            this.cbType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbType.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.cbType.ItemHeight = 30;
+            this.cbType.Items.AddRange(new object[] {
+            "Vật liệu cố định",
+            "Vật liệu tiêu hao"});
+            this.cbType.Location = new System.Drawing.Point(421, 387);
+            this.cbType.Name = "cbType";
+            this.cbType.Size = new System.Drawing.Size(252, 36);
+            this.cbType.TabIndex = 7;
+            // 
             // EditTool
             // 
+            this.AcceptButton = this.btnConfirm;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(717, 515);
@@ -314,6 +326,7 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EditTool";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditTool";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -328,7 +341,6 @@
 
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Button btnDel;
-        private System.Windows.Forms.TextBox txtType;
         private System.Windows.Forms.TextBox txtNote;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.TextBox txtTrigia;
@@ -349,5 +361,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2ComboBox cbType;
     }
 }

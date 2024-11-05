@@ -33,10 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.1.0\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -85,6 +94,12 @@
     </Compile>
     <Compile Include="AddTool.Designer.cs">
       <DependentUpon>AddTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BS_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BS_Home.Designer.cs">
+      <DependentUpon>BS_Home.cs</DependentUpon>
     </Compile>
     <Compile Include="DeletePatient.cs">
       <SubType>Form</SubType>
@@ -178,11 +193,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="ReceptionInfor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ReceptionInfor.Designer.cs">
       <DependentUpon>ReceptionInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rec_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rec_Home.Designer.cs">
+      <DependentUpon>Rec_Home.cs</DependentUpon>
     </Compile>
     <Compile Include="ServiceList.cs">
       <SubType>Form</SubType>
@@ -208,6 +234,9 @@
     <EmbeddedResource Include="AddReception.resx">
       <DependentUpon>AddReception.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddService.resx">
+      <DependentUpon>AddService.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddTool.resx">
       <DependentUpon>AddTool.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditReception.resx">
       <DependentUpon>EditReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditService.resx">
+      <DependentUpon>EditService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditTool.resx">
       <DependentUpon>EditTool.cs</DependentUpon>
@@ -255,15 +287,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ReceptionInfor.resx">
       <DependentUpon>ReceptionInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rec_Home.resx">
+      <DependentUpon>Rec_Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServiceList.resx">
       <DependentUpon>ServiceList.cs</DependentUpon>
@@ -271,6 +302,7 @@
     <EmbeddedResource Include="ToolList.resx">
       <DependentUpon>ToolList.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -293,6 +325,54 @@
       <Project>{07e18f07-2555-453b-8bd1-b9025a20c356}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color_Mode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picTtbn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picTtnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expand_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconQllnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconDoanhThu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconQltc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconQlvtyt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconQlllv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconDangXuat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconQltt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

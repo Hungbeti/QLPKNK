@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class Hoa_don_dich_vu
+    public class Hoa_don_Dich_vu
     {
         private string ID;
         private string STT;
@@ -15,9 +15,9 @@ namespace DTO
         private float Thanh_tien;
         private string Ghi_chu;
 
-        public Hoa_don_dich_vu() { }
+        public Hoa_don_Dich_vu() { }
 
-        public Hoa_don_dich_vu(string ID, string STT, string Ten_dich_vu, int So_luong, float Thanh_tien, string Ghi_chu)
+        public Hoa_don_Dich_vu(string ID, string STT, string Ten_dich_vu, int So_luong, float Thanh_tien, string Ghi_chu)
         {
             this.ID = ID;
             this.STT = STT;

@@ -8,15 +8,25 @@ namespace DTO
 {
     public class Nguoi_dung
     {
+        public Nguoi_dung() { }
         protected string Ma_nhan_vien;
         protected string Ho;
         protected string Ten;
         protected string Gioi_tinh;
         protected DateTime Ngay_sinh;
+        protected string Email;
         protected string Que_quan;
         protected string CCCD;
         protected string Maluong;
 
+        public string GetEmail()
+        {
+            return Email;
+        }
+        public void SetEmail(string email)
+        {
+            this.Email = email;
+        }
         public string GetMaNhanVien()
         {
             return Ma_nhan_vien;

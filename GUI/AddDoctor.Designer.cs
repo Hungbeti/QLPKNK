@@ -167,6 +167,13 @@
             this.cbSpecialization.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.cbSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSpecialization.FormattingEnabled = true;
+            this.cbSpecialization.Items.AddRange(new object[] {
+            "Nha chu",
+            "Nhổ răng và tiểu phẫu",
+            "Phục hình",
+            "Chữa răng và nội nha",
+            "Răng trẻ em",
+            "Tổng quát"});
             this.cbSpecialization.Location = new System.Drawing.Point(399, 344);
             this.cbSpecialization.Name = "cbSpecialization";
             this.cbSpecialization.Size = new System.Drawing.Size(266, 28);
@@ -177,6 +184,9 @@
             this.cbGender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.cbGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
             this.cbGender.Location = new System.Drawing.Point(34, 278);
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(244, 28);

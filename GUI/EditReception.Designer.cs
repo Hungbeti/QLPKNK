@@ -46,9 +46,7 @@
             this.txtYear = new System.Windows.Forms.TextBox();
             this.txtMonth = new System.Windows.Forms.TextBox();
             this.txtDay = new System.Windows.Forms.TextBox();
-            this.cbSpecialization = new System.Windows.Forms.ComboBox();
             this.cbGender = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -191,6 +189,7 @@
             this.btnConfirm.TabIndex = 11;
             this.btnConfirm.Text = "Xác nhận";
             this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // label10
             // 
@@ -231,16 +230,6 @@
             this.txtDay.Size = new System.Drawing.Size(66, 27);
             this.txtDay.TabIndex = 4;
             // 
-            // cbSpecialization
-            // 
-            this.cbSpecialization.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.cbSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbSpecialization.FormattingEnabled = true;
-            this.cbSpecialization.Location = new System.Drawing.Point(399, 402);
-            this.cbSpecialization.Name = "cbSpecialization";
-            this.cbSpecialization.Size = new System.Drawing.Size(266, 28);
-            this.cbSpecialization.TabIndex = 9;
-            // 
             // cbGender
             // 
             this.cbGender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
@@ -250,16 +239,6 @@
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(244, 28);
             this.cbGender.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(395, 379);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 20);
-            this.label8.TabIndex = 33;
-            this.label8.Text = "Chuyên khoa :";
             // 
             // label7
             // 
@@ -313,9 +292,7 @@
             this.panel2.Controls.Add(this.txtYear);
             this.panel2.Controls.Add(this.txtMonth);
             this.panel2.Controls.Add(this.txtDay);
-            this.panel2.Controls.Add(this.cbSpecialization);
             this.panel2.Controls.Add(this.cbGender);
-            this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
@@ -375,9 +352,7 @@
         private System.Windows.Forms.TextBox txtYear;
         private System.Windows.Forms.TextBox txtMonth;
         private System.Windows.Forms.TextBox txtDay;
-        private System.Windows.Forms.ComboBox cbSpecialization;
         private System.Windows.Forms.ComboBox cbGender;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;

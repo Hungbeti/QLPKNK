@@ -16,3 +16,15 @@ C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.csproj.CoreCompileInputs
 C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.dll
 C:\Users\NguyenQuan\source\repos\CNPM\DAL\obj\Debug\DAL.pdb
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\DAL.dll
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\DAL.pdb
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\DTO.dll
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\DTO.pdb
+C:\Users\admin\Desktop\CNPM\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\CNPM\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\CNPM\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\admin\Desktop\CNPM\DAL\obj\Debug\DAL.dll
+C:\Users\admin\Desktop\CNPM\DAL\obj\Debug\DAL.pdb
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\Guna.UI2.dll
+C:\Users\admin\Desktop\CNPM\DAL\bin\Debug\Guna.Charts.WinForms.xml

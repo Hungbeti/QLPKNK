@@ -226,9 +226,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(197)))), ((int)(((byte)(229)))));
             this.label1.Location = new System.Drawing.Point(273, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 32);
+            this.label1.Size = new System.Drawing.Size(142, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Sửa thông tin";
+            this.label1.Text = "Sửa thuốc";
             // 
             // pictureBox1
             // 

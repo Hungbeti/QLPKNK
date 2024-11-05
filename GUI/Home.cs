@@ -119,5 +119,12 @@ namespace GUI
         {
             lb.Text = btn_dt.Text;
         }
+
+        // Nhấn nút thay đổi ngôn ngữ
+        private void btnLanguage_Click(object sender, EventArgs e)
+        {
+            Point menuPosition = btnLanguage.PointToScreen(new Point(0, btnLanguage.Height));
+            guna2ContextMenuStrip1.Show(menuPosition);
+        }
     }
 }

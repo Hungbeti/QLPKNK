@@ -1,54 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\CNPM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\toollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\toollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\cnpm\\gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\cnpm\\gui\\rec_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\rec_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\toollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\toollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|C:\\Users\\admin\\Desktop\\CNPM\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\servicelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\servicelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|C:\\Users\\admin\\Desktop\\CNPM\\gui\\addservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\servicelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\servicelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\admin\\desktop\\cnpm\\gui\\rec_home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\rec_home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\medicinelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|C:\\Users\\admin\\Desktop\\CNPM\\gui\\rec_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\rec_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\edittool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\edittool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\addtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\edittool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\edittool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|c:\\users\\nguyenquan\\source\\repos\\cnpm\\gui\\addtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\addtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|C:\\Users\\admin\\Desktop\\CNPM\\gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9A049D-5C94-46C4-AA32-7FB00D935720}|GUI\\GUI.csproj|solutionrelative:gui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,96 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddTool.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddTool.cs",
-              "RelativeDocumentMoniker": "GUI\\AddTool.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddTool.cs [Design]",
-              "RelativeToolTip": "GUI\\AddTool.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:32:26.64Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ToolList.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ToolList.cs",
-              "RelativeDocumentMoniker": "GUI\\ToolList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ToolList.cs",
-              "RelativeToolTip": "GUI\\ToolList.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:35:03.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ToolList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ToolList.cs",
-              "RelativeDocumentMoniker": "GUI\\ToolList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ToolList.cs [Design]",
-              "RelativeToolTip": "GUI\\ToolList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:35:01.872Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MedicineList.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\MedicineList.cs",
-              "RelativeDocumentMoniker": "GUI\\MedicineList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\MedicineList.cs",
-              "RelativeToolTip": "GUI\\MedicineList.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:33:15.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceList.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ServiceList.cs",
-              "RelativeDocumentMoniker": "GUI\\ServiceList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ServiceList.cs",
-              "RelativeToolTip": "GUI\\ServiceList.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:32:38.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ServiceList.cs",
-              "RelativeDocumentMoniker": "GUI\\ServiceList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\ServiceList.cs [Design]",
-              "RelativeToolTip": "GUI\\ServiceList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:32:35.819Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicineList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\MedicineList.cs",
-              "RelativeDocumentMoniker": "GUI\\MedicineList.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\MedicineList.cs [Design]",
-              "RelativeToolTip": "GUI\\MedicineList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:33:14.065Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -186,69 +78,98 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddMedicine.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddMedicine.cs",
-              "RelativeDocumentMoniker": "GUI\\AddMedicine.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddMedicine.cs",
-              "RelativeToolTip": "GUI\\AddMedicine.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:09:45.658Z",
+              "DocumentIndex": 0,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Properties\\Resources.resx",
+              "RelativeToolTip": "GUI\\Properties\\Resources.resx",
+              "ViewState": "AgIAAI4AAAAAAAAAAIAwwKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-11-05T19:56:22.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddMedicine.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddMedicine.cs",
-              "RelativeDocumentMoniker": "GUI\\AddMedicine.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddMedicine.cs [Design]",
-              "RelativeToolTip": "GUI\\AddMedicine.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Rec_Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Rec_Home.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.Designer.cs",
+              "RelativeToolTip": "GUI\\Rec_Home.Designer.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAnwPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:09:42.991Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T19:41:45.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EditTool.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\EditTool.cs",
-              "RelativeDocumentMoniker": "GUI\\EditTool.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\EditTool.cs",
-              "RelativeToolTip": "GUI\\EditTool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Home.cs",
+              "RelativeDocumentMoniker": "GUI\\Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Home.cs",
+              "RelativeToolTip": "GUI\\Home.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAApwHoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:06:59.803Z",
+              "WhenOpened": "2024-11-05T19:14:00.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddTool.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddTool.cs",
-              "RelativeDocumentMoniker": "GUI\\AddTool.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\AddTool.cs",
-              "RelativeToolTip": "GUI\\AddTool.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Rec_Home.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.cs",
+              "RelativeDocumentMoniker": "GUI\\Rec_Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.cs",
+              "RelativeToolTip": "GUI\\Rec_Home.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwBoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:57:41.697Z",
+              "WhenOpened": "2024-11-05T19:11:24.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EditTool.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\EditTool.cs",
-              "RelativeDocumentMoniker": "GUI\\EditTool.cs",
-              "ToolTip": "C:\\Users\\NguyenQuan\\source\\repos\\CNPM\\GUI\\EditTool.cs [Design]",
-              "RelativeToolTip": "GUI\\EditTool.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "AddService.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\AddService.cs",
+              "RelativeDocumentMoniker": "GUI\\AddService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\AddService.cs [Design]",
+              "RelativeToolTip": "GUI\\AddService.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:02:48.847Z",
+              "WhenOpened": "2024-11-05T19:01:35.6Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Home.cs",
+              "RelativeDocumentMoniker": "GUI\\Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Home.cs [Design]",
+              "RelativeToolTip": "GUI\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:47:35.464Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rec_Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.cs",
+              "RelativeDocumentMoniker": "GUI\\Rec_Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\CNPM\\GUI\\Rec_Home.cs [Design]",
+              "RelativeToolTip": "GUI\\Rec_Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:46:23.441Z",
               "EditorCaption": " [Design]"
             }
           ]

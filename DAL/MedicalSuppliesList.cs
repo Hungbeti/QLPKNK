@@ -90,7 +90,7 @@ namespace DAL
             cmd.Parameters.AddWithValue("@Mau_sac", mausac);
             cmd.Parameters.AddWithValue("@Kich_co", float.Parse(kichco));
             cmd.Parameters.AddWithValue("@DVT", dvt);
-            cmd.Parameters.AddWithValue("@Gia", float.Parse(gia)); // Assuming gia is a string representing a float value
+            cmd.Parameters.AddWithValue("@Tri_gia", float.Parse(gia)); // Assuming gia is a string representing a float value
             cmd.Parameters.AddWithValue("@So_luong", int.Parse(soluong)); // Assuming soluong is a string representing an integer value
             cmd.Parameters.AddWithValue("@Ghi_chu", ghichu);
             cmd.Parameters.AddWithValue("@Loai", loai);
@@ -185,12 +185,12 @@ namespace DAL
             conn.Open();
             SqlCommand cmd;
 
-            cmd = new SqlCommand("UPDATE Dung_cu SET Mau_sac = @Mau_sac, Kich_co = @Kich_co, DVT = @DVT, Gia = @Gia, So_luong = @So_luong, Ghi_chu = @Ghi_chu, Loai = @Loai WHERE Ten_dung_cu = @Ten_dung_cu", conn);
+            cmd = new SqlCommand("UPDATE Dung_cu SET Mau_sac = @Mau_sac, Kich_co = @Kich_co, DVT = @DVT, Tri_gia = @Tri_gia, So_luong = @So_luong, Ghi_chu = @Ghi_chu, Loai = @Loai WHERE Ten_dung_cu = @Ten_dung_cu", conn);
             cmd.Parameters.AddWithValue("@Ten_dung_cu", ten);
             cmd.Parameters.AddWithValue("@Mau_sac", mausac);
             cmd.Parameters.AddWithValue("@Kich_co", float.Parse(kichco));
             cmd.Parameters.AddWithValue("@DVT", dvt);
-            cmd.Parameters.AddWithValue("@Gia", float.Parse(gia));
+            cmd.Parameters.AddWithValue("@Tri_gia", float.Parse(gia));
             cmd.Parameters.AddWithValue("@So_luong", int.Parse(soluong));
             cmd.Parameters.AddWithValue("@Ghi_chu", ghichu);
             cmd.Parameters.AddWithValue("@Loai", loai);

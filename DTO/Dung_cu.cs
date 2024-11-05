@@ -36,7 +36,7 @@ namespace DTO
             return Ten_dung_cu;
         }
 
-        public String mau_sac()
+        public String getMau_sac()
         { 
             return Mau_sac;
         }

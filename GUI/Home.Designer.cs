@@ -52,15 +52,20 @@
             this.lbName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnLanguage = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lb = new System.Windows.Forms.Label();
             this.pnBody = new System.Windows.Forms.Panel();
+            this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.tiếngViệtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tiếngAnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.pnQltt.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.avtPic)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2ContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -348,7 +353,7 @@
             this.avtPic.Image = ((System.Drawing.Image)(resources.GetObject("avtPic.Image")));
             this.avtPic.Location = new System.Drawing.Point(12, 12);
             this.avtPic.Name = "avtPic";
-            this.avtPic.Size = new System.Drawing.Size(69, 66);
+            this.avtPic.Size = new System.Drawing.Size(110, 132);
             this.avtPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.avtPic.TabIndex = 4;
             this.avtPic.TabStop = false;
@@ -359,7 +364,7 @@
             this.lbName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(207)))));
             this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbName.ForeColor = System.Drawing.Color.White;
-            this.lbName.Location = new System.Drawing.Point(101, 52);
+            this.lbName.Location = new System.Drawing.Point(137, 89);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(87, 26);
             this.lbName.TabIndex = 3;
@@ -370,7 +375,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(101, 12);
+            this.label1.Location = new System.Drawing.Point(128, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 26);
             this.label1.TabIndex = 2;
@@ -379,6 +384,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.panel4.Controls.Add(this.btnLanguage);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.lb);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -387,11 +393,28 @@
             this.panel4.Size = new System.Drawing.Size(829, 100);
             this.panel4.TabIndex = 1;
             // 
+            // btnLanguage
+            // 
+            this.btnLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLanguage.BorderRadius = 10;
+            this.btnLanguage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLanguage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLanguage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLanguage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLanguage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLanguage.ForeColor = System.Drawing.Color.White;
+            this.btnLanguage.Location = new System.Drawing.Point(642, 18);
+            this.btnLanguage.Name = "btnLanguage";
+            this.btnLanguage.Size = new System.Drawing.Size(136, 45);
+            this.btnLanguage.TabIndex = 8;
+            this.btnLanguage.Text = "Ngôn ngữ";
+            this.btnLanguage.Click += new System.EventHandler(this.btnLanguage_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(602, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(568, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(44, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -416,6 +439,38 @@
             this.pnBody.Size = new System.Drawing.Size(829, 953);
             this.pnBody.TabIndex = 2;
             // 
+            // guna2ContextMenuStrip1
+            // 
+            this.guna2ContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.guna2ContextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tiếngViệtToolStripMenuItem,
+            this.tiếngAnhToolStripMenuItem});
+            this.guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
+            this.guna2ContextMenuStrip1.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
+            this.guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(150, 56);
+            // 
+            // tiếngViệtToolStripMenuItem
+            // 
+            this.tiếngViệtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("tiếngViệtToolStripMenuItem.Image")));
+            this.tiếngViệtToolStripMenuItem.Name = "tiếngViệtToolStripMenuItem";
+            this.tiếngViệtToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.tiếngViệtToolStripMenuItem.Text = "Tiếng Việt";
+            // 
+            // tiếngAnhToolStripMenuItem
+            // 
+            this.tiếngAnhToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("tiếngAnhToolStripMenuItem.Image")));
+            this.tiếngAnhToolStripMenuItem.Name = "tiếngAnhToolStripMenuItem";
+            this.tiếngAnhToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.tiếngAnhToolStripMenuItem.Text = "Tiếng Anh";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -434,6 +489,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.guna2ContextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -466,5 +522,9 @@
         private System.Windows.Forms.Button btn_ttnv;
         private System.Windows.Forms.Button btn_thbn;
         private System.Windows.Forms.Panel pnBody;
+        private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tiếngViệtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tiếngAnhToolStripMenuItem;
+        private Guna.UI2.WinForms.Guna2Button btnLanguage;
     }
 }

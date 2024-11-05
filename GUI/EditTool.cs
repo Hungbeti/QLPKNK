@@ -18,22 +18,42 @@ namespace GUI
             InitializeComponent();
         }
 
+        // Xóa
         private void btnDel_Click(object sender, EventArgs e)
         {
-            // Xóa hết dữ liệu trong các ô nhập liệu
             txtName.Text = "";
             txtDVT.Text = "";
             txtColor.Text = "";
             txtTrigia.Text = "";
             txtQuantity.Text = "";
             txtNote.Text = "";
-            txtType.Text = "";
+            cbType.Text = "";
             txtSize.Text = "";
         }
+        
+        public EditTool(string name)
+        {
+            InitializeComponent();
+            this.name = name;
+            DTO.Dung_cu dungCu = BLL.MedicalSuppliesList.GetDungCu(name);
+            txtName.Text = name;
+            txtName.Enabled = false;
+            txtDVT.Text = dungCu.getDVT();
+            txtQuantity.Text = dungCu.getSo_luong().ToString();
+            txtColor.Text = dungCu.getMau_sac();
+            txtNote.Text = dungCu.getGhi_chu();
+            txtSize.Text = dungCu.getKich_co().ToString();
+            txtTrigia.Text = dungCu.getTri_gia().ToString();
+            cbType.Text = dungCu.getLoai();
+        }
 
+        // Xác nhận
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-
+            string text = BLL.MedicalSuppliesList.EditDungCu(txtName.Text, txtColor.Text, txtSize.Text, txtDVT.Text, txtTrigia.Text, txtQuantity.Text, txtNote.Text, cbType.Text);
+            MessageBox.Show(text);
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -29,12 +29,16 @@ namespace GUI
             txtYear.Text = "";
             txtIDCard.Text = "";
             txtEmail.Text = "";
-            cbSpecialization.SelectedIndex = -1;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

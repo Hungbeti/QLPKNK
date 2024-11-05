@@ -18,9 +18,11 @@ CREATE TABLE Nguoi_dung
 	Ten NVARCHAR(50) NOT NULL,
 	Gioi_tinh NVARCHAR(3) CHECK(Gioi_tinh IN (N'Nam', N'Nữ')),
 	Ngay_sinh DATE,
+	Email varchar(50) NOT NULL,
 	Que_quan NVARCHAR(30),
 	CCCD NVARCHAR(12) UNIQUE,
 	Maluong VARCHAR(10),
+	Hoatdong int,
 	FOREIGN KEY (Maluong) REFERENCES Luong_co_dinh(Ma)
 );
 
@@ -147,6 +149,7 @@ CREATE TABLE Benh_nhan
 	Ho NVARCHAR(50) NOT NULL,
 	Ten NVARCHAR(50) NOT NULL,
 	Gioi_tinh NVARCHAR(3) CHECK(Gioi_tinh IN (N'Nam', N'Nữ')),
+	Ngay_sinh Date,
 	Tuoi INT CHECK (Tuoi > 0)
 );
 
@@ -236,96 +239,33 @@ CREATE TABLE Luong_them
 	IDHD VARCHAR(30),
 	FOREIGN KEY (IDHD) REFERENCES Thanh_toan(ID)
 );
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 GO
-INSERT INTO Chuyen_khoa values(N'Nha chu')
-INSERT INTO Chuyen_khoa values(N'Nhổ răng và tiểu phẫu')
-INSERT INTO Chuyen_khoa values(N'Phục hình')
-INSERT INTO Chuyen_khoa values(N'Chữa răng và nội nha')
-INSERT INTO Chuyen_khoa values(N'Răng trẻ em')
-INSERT INTO Chuyen_khoa values(N'Tổng quát')
-
+INSERT INTO Luong_co_dinh (Ma, So_tien) 
+VALUES ('BSNC', 9000000), ('BSNRVTP', 7500000), ('BSPH', 8500000),
+       ('BSCRVNN', 9200000), ('BSRTE', 7000000), ('BSTQ', 8000000), 
+       ('CPK01', 50000000), ('LT', 5000000);
 GO
-INSERT INTO Loai_dung_cu values(N'Vật liệu cố định')
-INSERT INTO Loai_dung_cu values(N'Vật liệu tiêu hao')
-
+INSERT INTO Nguoi_dung (Ma_nhan_vien, Ho, Ten, Gioi_tinh, Ngay_sinh, Email, Que_quan, CCCD, Maluong, Hoatdong)
+VALUES ('LT01', N'Nguyễn', N'An', N'Nữ', '2000-02-01', '123@gmail.com', N'Hà Nội', '123456789012', 'LT', 1),
+       ('LT02', N'Lê', N'Bình', N'Nữ', '1992-07-23', N'uchihaha3169@gmail.com', N'Đà Nẵng', '123456789013', 'LT', 1),
+       ('BSTQ01', N'Nguyễn Minh', N'Luân', N'Nam', '1985-11-11', N'uchihi3169@gmail.com', N'Hải Phòng', '123456789014', 'BSTQ', 1),
+       ('BSTQ02', N'Trần', N'Khang', N'Nam', '1990-07-15', '456@gmail.com', N'Đà Nẵng', '123456789015', 'BSTQ', 1),
+       ('BSRTE01', N'Trần Thị', N'Nhàn', N'Nữ', '1988-04-12', '456@gmail.com', N'Đồng Tháp', '123456789016', 'BSRTE', 1),
+       ('CPK01', N'Nguyễn Cao', N'Kỳ', N'Nam', '1978-03-09', '789@gmail.com', N'Quảng Ngãi', '123456789017', 'CPK01', 1);
+Go
+INSERT INTO Tai_khoan (Taikhoan, Matkhau, MaNV)
+VALUES 
+       ('BSTQ01', 'a', 'BSTQ01'),
+       ('LT01', 'a', 'LT01'),
+	   ('CPK01','a','CPK01');
 GO
-INSERT INTO Loai_thuoc values(N'Kháng viêm')
-INSERT INTO Loai_thuoc values(N'Kháng sinh')
-INSERT INTO Loai_thuoc values(N'Giảm đau')
-
-GO
-INSERT INTO Dung_cu values(N'Mũi cạo vôi',N'Trắng',NULL,N'Cái',400000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Kèm',N'Trắng',NULL,N'Cái',300000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Nạy',N'Đen',NULL,N'Cái',100000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Bộ dụng cụ khám răng cơ bản',N'Trắng',NULL,N'Bộ',700000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Nạo ngà',N'Trắng',NULL,N'Cái',300000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Bay trám',N'Trắng',NULL,N'Cái',500000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Cây đo túi nướu',N'Trắng',NULL,N'Cái',40000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Đèn quang trùng hợp',N'Xanh dương',NULL,N'Cái',20000000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Ống chích sắt',N'Trắng',NULL,N'Cái',200000,10,NULL,N'Vật liệu cố định')
-INSERT INTO Dung_cu values(N'Composite đặc',N'Đen',NULL,N'Ống',170000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Composite lỏng',N'Đen',NULL,N'Ống',100000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Cọ bond',N'Vàng',NULL,N'Cái',120000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Gòn',N'Trắng',NULL,N'Cái',5000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Mũi khoan kim cương',N'Đen',NULL,N'Cái',1000000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Sealer trám bít',N'Trắng',NULL,N'Ống',500000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Cone giấy',N'Trắng',NULL,N'Hộp',50000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Cone chính',N'Trắng',NULL,N'Hộp',500000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'NaOCl',N'Trắng',NULL,N'Chai',450000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'NaCL',N'Trắng',NULL,N'Chai',12000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'EDTA',N'Trắng',NULL,N'Ống',150000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Trâm tay',N'Đen',NULL,N'Bộ',300000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Trâm máy',N'Vàng',NULL,N'Cái',200000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Spongel',N'Trắng',NULL,N'Hộp',12000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Mũi đánh bóng',N'Trắng',NULL,N'Cái',100000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Chổi đánh bóng',N'Trắng',NULL,N'Hộp',200000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Sò đánh bóng',N'Nâu',NULL,N'Hộp',200000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Chỉ khâu',N'Trắng',NULL,N'Hộp',40000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Thuốc tê',N'Trắng',NULL,N'Hộp',900000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Formolcoresol',N'Đỏ',NULL,N'Chai',200000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'ZnO',N'Trắng',NULL,N'Chai',70000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'MTA',N'Trắng',NULL,N'Cái',2500000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'GIC',N'Trắng',NULL,N'Chai',1000000,10,NULL,N'Vật liệu tiêu hao')
-INSERT INTO Dung_cu values(N'Trám tạm',N'Trắng',NULL,N'Hộp',100000,10,NULL,N'Vật liệu tiêu hao')
-
-GO
-INSERT INTO Thuoc values(N'Amoxicillin 500',N'Hộp',10,120000,N'500mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Amoxicillin 625',N'Hộp',10,182000,N'625mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Amoxicillin 875',N'Hộp',10,126000,N'875mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Amoxicillin 1000',N'Hộp',10,275000,N'1000mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Metronidazol 250',N'Hộp',10,30000,N'250mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Metronidazol 500',N'Hộp',10,100000,N'500mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Cephalexin',N'Hộp',10,127000,N'500mg',NULL,N'Kháng sinh')
-INSERT INTO Thuoc values(N'Medrol 4',N'Hộp',10,40000,N'4mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Medrol 16',N'Hộp',10,120000,N'16mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Ibuprofen 200',N'Hộp',10,43000,N'200mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Ibuprofen 400',N'Hộp',10,88000,N'400mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Diclofenac 50',N'Hộp',10,32000,N'50mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Diclofenac 75',N'Hộp',10,55000,N'75mg',NULL,N'Kháng viêm')
-INSERT INTO Thuoc values(N'Paracetamol 500',N'Hộp',10,33000,N'500mg',NULL,N'Giảm đau')
-INSERT INTO Thuoc values(N'Paracetamol 650',N'Hộp',10,56000,N'650mg',NULL,N'Giảm đau')
-INSERT INTO Thuoc values(N'Dexamethasone',N'Hộp',10,150000,N'4mg',NULL,N'Giảm đau')
-
-GO
-INSERT INTO Danh_muc_ki_thuat values(N'Khám - Hồ sơ')
-INSERT INTO Danh_muc_ki_thuat values(N'Nhổ răng')
-INSERT INTO Danh_muc_ki_thuat values(N'Tiểu phẫu thuật')
-INSERT INTO Danh_muc_ki_thuat values(N'Nha chu')
-INSERT INTO Danh_muc_ki_thuat values(N'Chữa răng - Nội nha')
-INSERT INTO Danh_muc_ki_thuat values(N'Chữa tủy')
-INSERT INTO Danh_muc_ki_thuat values(N'Phục hình tháo lắp')
-INSERT INTO Danh_muc_ki_thuat values(N'Sửa chữa hàm')
-INSERT INTO Danh_muc_ki_thuat values(N'Điều trị tiền phục hình')
-INSERT INTO Danh_muc_ki_thuat values(N'Phục hình cố định')
-INSERT INTO Danh_muc_ki_thuat values(N'Điều trị răng sữa')
-INSERT INTO Danh_muc_ki_thuat values(N'Chỉnh hình răng mặt')
-INSERT INTO Danh_muc_ki_thuat values(N'Khí cụ tháo lắp')
-INSERT INTO Danh_muc_ki_thuat values(N'Khí cụ cố định')
-INSERT INTO Danh_muc_ki_thuat values(N'Nha công cộng')
-INSERT INTO Danh_muc_ki_thuat values(N'Điều trị loạn năng hệ thống nhai')
-INSERT INTO Danh_muc_ki_thuat values(N'X-quang răng')
-
+INSERT INTO Danh_muc_ki_thuat VALUES (N'Khám - Hồ sơ'), (N'Nhổ răng'), (N'Tiểu phẫu thuật'), (N'Nha chu'), 
+                                     (N'Chữa răng - Nội nha'), (N'Chữa tủy'), (N'Phục hình tháo lắp'), 
+                                     (N'Sửa chữa hàm'), (N'Điều trị tiền phục hình'), (N'Phục hình cố định'), 
+                                     (N'Điều trị răng sữa'), (N'Chỉnh hình răng mặt'), (N'Khí cụ tháo lắp'), 
+                                     (N'Khí cụ cố định'), (N'Nha công cộng'), (N'Điều trị loạn năng hệ thống nhai'), 
+                                     (N'X-quang răng');
 GO
 INSERT INTO Dich_vu values(N'Răng cửa, răng nanh',N'Cái',50000,NULL,N'Nhổ răng')
 INSERT INTO Dich_vu values(N'Răng cối nhỏ',N'Cái',60000,NULL,N'Nhổ răng')
@@ -411,39 +351,150 @@ INSERT INTO Dich_vu values(N'Màng chỉnh khớp cắn đơn giản',N'Lần',1
 INSERT INTO Dich_vu values(N'Màng chỉnh khớp cắn phức tạp',N'Lần',300000,NULL,N'Điều trị loạn năng hệ thống nhai')
 INSERT INTO Dich_vu values(N'Phim quanh chóp',N'Phim',30000,NULL,N'X-quang răng')
 INSERT INTO Dich_vu values(N'Phim toàn cảnh',N'Phim',100000,NULL,N'X-quang răng')
+GO
+INSERT INTO Loai_thuoc VALUES (N'Kháng viêm'), (N'Kháng sinh'), (N'Giảm đau');
+GO
+INSERT INTO Thuoc values(N'Amoxicillin 500',N'Hộp',10,120000,N'500mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Amoxicillin 625',N'Hộp',10,182000,N'625mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Amoxicillin 875',N'Hộp',10,126000,N'875mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Amoxicillin 1000',N'Hộp',10,275000,N'1000mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Metronidazol 250',N'Hộp',10,30000,N'250mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Metronidazol 500',N'Hộp',10,100000,N'500mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Cephalexin',N'Hộp',10,127000,N'500mg',NULL,N'Kháng sinh')
+INSERT INTO Thuoc values(N'Medrol 4',N'Hộp',10,40000,N'4mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Medrol 16',N'Hộp',10,120000,N'16mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Ibuprofen 200',N'Hộp',10,43000,N'200mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Ibuprofen 400',N'Hộp',10,88000,N'400mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Diclofenac 50',N'Hộp',10,32000,N'50mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Diclofenac 75',N'Hộp',10,55000,N'75mg',NULL,N'Kháng viêm')
+INSERT INTO Thuoc values(N'Paracetamol 500',N'Hộp',10,33000,N'500mg',NULL,N'Giảm đau')
+INSERT INTO Thuoc values(N'Paracetamol 650',N'Hộp',10,56000,N'650mg',NULL,N'Giảm đau')
+INSERT INTO Thuoc values(N'Dexamethasone',N'Hộp',10,150000,N'4mg',NULL,N'Giảm đau')
+GO
+INSERT INTO Loai_dung_cu VALUES (N'Vật liệu cố định'), (N'Vật liệu tiêu hao');
+GO
+INSERT INTO Dung_cu values(N'Mũi cạo vôi',N'Trắng',NULL,N'Cái',400000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Kèm',N'Trắng',NULL,N'Cái',300000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Nạy',N'Đen',NULL,N'Cái',100000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Bộ dụng cụ khám răng cơ bản',N'Trắng',NULL,N'Bộ',700000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Nạo ngà',N'Trắng',NULL,N'Cái',300000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Bay trám',N'Trắng',NULL,N'Cái',500000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Cây đo túi nướu',N'Trắng',NULL,N'Cái',40000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Đèn quang trùng hợp',N'Xanh dương',NULL,N'Cái',20000000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Ống chích sắt',N'Trắng',NULL,N'Cái',200000,10,NULL,N'Vật liệu cố định')
+INSERT INTO Dung_cu values(N'Composite đặc',N'Đen',NULL,N'Ống',170000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Composite lỏng',N'Đen',NULL,N'Ống',100000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Cọ bond',N'Vàng',NULL,N'Cái',120000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Gòn',N'Trắng',NULL,N'Cái',5000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Mũi khoan kim cương',N'Đen',NULL,N'Cái',1000000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Sealer trám bít',N'Trắng',NULL,N'Ống',500000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Cone giấy',N'Trắng',NULL,N'Hộp',50000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Cone chính',N'Trắng',NULL,N'Hộp',500000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'NaOCl',N'Trắng',NULL,N'Chai',450000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'NaCL',N'Trắng',NULL,N'Chai',12000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'EDTA',N'Trắng',NULL,N'Ống',150000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Trâm tay',N'Đen',NULL,N'Bộ',300000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Trâm máy',N'Vàng',NULL,N'Cái',200000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Spongel',N'Trắng',NULL,N'Hộp',12000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Mũi đánh bóng',N'Trắng',NULL,N'Cái',100000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Chổi đánh bóng',N'Trắng',NULL,N'Hộp',200000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Sò đánh bóng',N'Nâu',NULL,N'Hộp',200000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Chỉ khâu',N'Trắng',NULL,N'Hộp',40000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Thuốc tê',N'Trắng',NULL,N'Hộp',900000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Formolcoresol',N'Đỏ',NULL,N'Chai',200000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'ZnO',N'Trắng',NULL,N'Chai',70000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'MTA',N'Trắng',NULL,N'Cái',2500000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'GIC',N'Trắng',NULL,N'Chai',1000000,10,NULL,N'Vật liệu tiêu hao')
+INSERT INTO Dung_cu values(N'Trám tạm',N'Trắng',NULL,N'Hộp',100000,10,NULL,N'Vật liệu tiêu hao')
+GO
+INSERT INTO Chuyen_khoa values(N'Nha chu')
+INSERT INTO Chuyen_khoa values(N'Nhổ răng và tiểu phẫu')
+INSERT INTO Chuyen_khoa values(N'Phục hình')
+INSERT INTO Chuyen_khoa values(N'Chữa răng và nội nha')
+INSERT INTO Chuyen_khoa values(N'Răng trẻ em')
+INSERT INTO Chuyen_khoa values(N'Tổng quát')
+GO
+INSERT INTO Bac_si (Ma_bac_si, Chuyen_khoa) VALUES ('BSTQ01', N'Tổng quát'), ('BSTQ02', N'Tổng quát'), ('BSRTE01', N'Răng trẻ em');
+GO
+INSERT INTO Chu (Ma_chu) VALUES ('CPK01');
+GO
+INSERT INTO Le_tan (Ma_le_tan) VALUES ('LT01'), ('LT02');
+GO
+INSERT INTO Ca_lam (Ca, Gio_bat_dau, Gio_ket_thuc)
+VALUES (1, '08:00:00', '12:00:00'), (2, '13:00:00', '17:00:00'), (3, '18:00:00', '22:00:00');
+GO
+INSERT INTO Lam_viec (Ngay, Ca, Ma_bac_si, Cham_cong)
+VALUES ('2024-05-10', 1, 'BSTQ02', N'Có mặt'), ('2024-05-10', 3, 'BSTQ02', N'Chưa điểm danh');
+Go
+INSERT INTO Benh_nhan (CCCD, Ho, Ten, Gioi_tinh, Ngay_sinh, Tuoi)
+VALUES ('987654321001', N'Phạm', N'Huy', N'Nam', '1979-10-15', 45),
+       ('987654321002', N'Trần', N'Thảo', N'Nữ', '1996-08-07', 28);
+GO
+INSERT INTO Nguoi_kham (STT, Ngay, Ca, Ma_benh_nhan, Ma_le_tan, Ma_bac_si, Trang_thai, Ghi_chu)
+VALUES ('KH001', '2024-11-01', 1, '987654321001', 'LT01', 'BSTQ01', N'Đang điều trị', N'Tái khám');
+Go
+INSERT INTO Chi_tieu_dung_cu (ID, Ten_dung_cu, So_luong, Thanh_tien, STT)
+VALUES ('CT0001', N'Chỉ khâu', 1, 40000, 'KH001');
+GO
+INSERT INTO Hoa_don_Thuoc (ID, STT, Ten_thuoc, So_luong, Thanh_tien, Ghi_chu)
+VALUES ('HDT0001', 'KH001', N'Amoxicillin 875', 1, 126000, N'Uống sau khi ăn')
+GO
+INSERT INTO Hoa_don_Dich_vu (ID, STT, Ten_dich_vu, So_luong, Thanh_tien, Ghi_chu)
+VALUES ('HDDV0001', 'KH001', N'1 răng', 1, 100000, NULL);
+GO
+INSERT INTO Phuong_thuc_thanh_toan (Ten) VALUES (N'Tiền mặt'), (N'Chuyển khoản');
 
 GO
-INSERT INTO Luong_co_dinh values('BSNC',9000000)
-INSERT INTO Luong_co_dinh values('BSNRVTP',7500000)
-INSERT INTO Luong_co_dinh values('BSPH',8500000)
-INSERT INTO Luong_co_dinh values('BSCRVNN',9200000)
-INSERT INTO Luong_co_dinh values('BSRTE',7000000)
-INSERT INTO Luong_co_dinh values('BSTQ',8000000)
-INSERT INTO Luong_co_dinh values('LT',5000000)
-INSERT INTO Luong_co_dinh values('CPK',50000000)
-Go
-INSERT INTO Tai_khoan (Taikhoan, Matkhau) values ('admin@gmail.com', 'admin');
-INSERT INTO Tai_khoan (Taikhoan, Matkhau) values ('a', 'a');
+INSERT INTO Thanh_toan (ID, STT, Gio, Tongtien, Hinhthuc, Tinhtrang)
+VALUES ('TT001', 'KH001', '2024-11-01 10:00', 670000, N'Tiền mặt', N'Đã thanh toán');
 GO
+INSERT INTO Luong_them (Ma, Tien, Gio, IDHD)
+VALUES 
+(1, 200000, '2024-11-01 11:00', 'TT001'),
+(2, 150000, '2024-11-02 16:00', 'TT001');
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Go
 CREATE PROCEDURE proc_check_login
     @taikhoan NVARCHAR(50),
     @matkhau NVARCHAR(50),
     @message NVARCHAR(1000) OUTPUT
 AS
 BEGIN
-    SET NOCOUNT ON;
+    -- Khởi tạo giá trị mặc định cho output parameter
+    SET @message = '';
 
-    -- Kiểm tra thông tin tài khoản và mật khẩu
-    IF EXISTS (SELECT 1 FROM Tai_khoan WHERE Taikhoan = @taikhoan AND Matkhau = @matkhau)
+    -- Check if the account exists
+    IF NOT EXISTS (SELECT 1 FROM Tai_khoan WHERE Taikhoan = @taikhoan)
     BEGIN
-        -- Nếu tài khoản và mật khẩu hợp lệ
-        SET @message = N'Đăng nhập thành công.'
+        SET @message = N'Không tìm thấy tài khoản';
+        RETURN;
     END
-    ELSE
+
+    -- Check if the account is active
+    IF NOT EXISTS (
+        SELECT 1 
+        FROM Tai_khoan tk 
+        JOIN Nguoi_dung nd ON tk.MaNV = nd.Ma_nhan_vien
+        WHERE tk.Taikhoan = @taikhoan AND nd.Hoatdong = 1
+    )
     BEGIN
-        -- Nếu tài khoản hoặc mật khẩu không chính xác
-        SET @message = N'Tên tài khoản hoặc mật khẩu không chính xác.'
+        SET @message = N'Tài khoản không hoạt động';
+        RETURN;
     END
+
+    -- Check if the password is correct
+    IF NOT EXISTS (
+        SELECT 1 
+        FROM Tai_khoan 
+        WHERE Taikhoan = @taikhoan AND Matkhau = @matkhau
+    )
+    BEGIN
+        SET @message = N'Sai mật khẩu';
+
+        RETURN;
+    END
+    SET @message = N'Đăng nhập thành công';
 END
 GO
 CREATE PROCEDURE ThemThuoc
@@ -486,4 +537,11 @@ BEGIN
     INSERT INTO Dich_vu (Ten_dich_vu, Don_vi_tinh, Don_gia, Ghi_chu, Ten_danh_muc)
     VALUES (@Ten_dich_vu, @Don_vi_tinh, @Don_gia, @Ghi_chu, @Ten_danh_muc);
 END;
+GO
+create proc [dbo].[proc_thongtin] @taikhoan VARCHAR(30)
+as
+	begin
+		 select Ma_nhan_vien,ho,ten,Gioi_tinh from Nguoi_dung inner join Tai_khoan on Tai_khoan.MaNV = Nguoi_dung.Ma_nhan_vien
+		 where @taikhoan = Taikhoan
+	end
 GO

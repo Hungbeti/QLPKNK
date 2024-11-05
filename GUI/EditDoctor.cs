@@ -36,5 +36,10 @@ namespace GUI
             txtEmail.Text = "";
             cbSpecialization.SelectedIndex = -1;
         }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

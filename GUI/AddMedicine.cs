@@ -21,14 +21,15 @@ namespace GUI
             InitializeComponent();
         }
 
+        // Tắt form
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        // Xóa
         private void btnDel_Click(object sender, EventArgs e)
         {
-            // Xóa hết dữ liệu trong các ô nhập liệu
             txtName.Text = "";
             txtDVT.Text = "";
             txtPrice.Text = "";
@@ -53,6 +54,7 @@ namespace GUI
             txtType.Text = thuoc.getTen_loai();
         }
 
+        // Xác nhận
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             string text = BLL.MedicalSuppliesList.AddThuoc(txtName.Text, txtDVT.Text, txtQuantity.Text, txtPrice.Text, txtHamLuong.Text, txtNote.Text, txtType.Text);

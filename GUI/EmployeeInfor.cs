@@ -36,6 +36,7 @@ namespace GUI
             childForm.Show();
         }
 
+        // Lễ tân
         private void btnReception_Click(object sender, EventArgs e)
         {
             openChildForm(new ReceptionInfor());
@@ -43,6 +44,7 @@ namespace GUI
             btnReception.BackColor = Color.FromArgb(68, 197, 229);
         }
 
+        // Bác sĩ
         private void btnDoctor_Click(object sender, EventArgs e)
         {
             openChildForm(new DoctorInfor());
